@@ -1,13 +1,9 @@
-﻿using Golmodoth.Engine;
-using System;
+﻿using System.Threading.Tasks;
 
 namespace Golmodoth
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            new ConsoleWindow().Construct(75, 50, 10, 15, ConsoleGameEngine.FramerateMode.MaxFps);
-        }
+        static async Task Main(string[] args) => await new Startup(args).StartAsync();
     }
 }
