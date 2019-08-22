@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGameEngine", "Consol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LionLibrary", "LionLibrary\LionLibrary\LionLibrary.csproj", "{C670D45E-8091-4753-BB84-4C6853B7C558}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedGolmodoth", "SharedGolmodoth\SharedGolmodoth.csproj", "{D8A1E0F1-B617-486A-B67F-0BC47CBEF786}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C670D45E-8091-4753-BB84-4C6853B7C558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C670D45E-8091-4753-BB84-4C6853B7C558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C670D45E-8091-4753-BB84-4C6853B7C558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A1E0F1-B617-486A-B67F-0BC47CBEF786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A1E0F1-B617-486A-B67F-0BC47CBEF786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A1E0F1-B617-486A-B67F-0BC47CBEF786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A1E0F1-B617-486A-B67F-0BC47CBEF786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
